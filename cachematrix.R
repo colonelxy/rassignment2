@@ -10,7 +10,7 @@ set <- function (y) {
         i <<- NULL
 }
         get <- function () x
-        seninverse <- function(inverse) i <<- inverse
+        setinverse <- function(inverse) i <<- inverse
         getinverse <- function () i 
         list (set = set, get = get,
               setinverse = setinverse,
